@@ -22,14 +22,20 @@
     <a class="skip-link" href="#contenuto-principale">Salta al contenuto</a>
     <header class="site-header">
       <a class="brand" href="#home" aria-label="Vai alla home Lovallo Impianti">
-        <img
-          src="assets/logo.jpeg"
-          alt="Logo Lovallo Impianti"
-          width="1356"
-          height="248"
-          decoding="async"
-          fetchpriority="high"
-        />
+        <span class="brand-mark">
+          <img
+            src="assets/favicon.png"
+            alt=""
+            width="239"
+            height="248"
+            decoding="async"
+            fetchpriority="high"
+          />
+        </span>
+        <span class="brand-text">
+          <span class="brand-title">LOVALLO IMPIANTI S.r.l.</span>
+          <span class="brand-tagline">Impianti di Climatizzazione - Idrici - Trattamento aria - Gas</span>
+        </span>
       </a>
       <button
         id="menu-toggle"
@@ -56,13 +62,20 @@
 
     <div id="mobile-menu" class="mobile-menu" hidden>
       <button id="menu-close" class="menu-close" aria-label="Chiudi menu">×</button>
-      <div class="mobile-menu-brand" aria-hidden="true">
-        <div class="mobile-menu-brand-circle">
-          <img src="assets/favicon.png" alt="" decoding="async" />
-        </div>
-      </div>
+      <a
+        class="mobile-menu-brand mobile-menu-brand-link"
+        href="#home"
+        aria-label="Vai in cima alla pagina, sezione principale"
+      >
+        <span class="mobile-menu-brand-mark" aria-hidden="true">
+          <img src="assets/favicon.png" alt="" width="239" height="248" decoding="async" />
+        </span>
+        <span class="mobile-menu-brand-text">
+          <span class="mobile-menu-brand-title">LOVALLO IMPIANTI S.r.l.</span>
+          <span class="mobile-menu-brand-sub">Impianti di Climatizzazione - Idrici - Trattamento aria - Gas</span>
+        </span>
+      </a>
       <nav aria-label="Menu mobile">
-        <a href="#home">Home</a>
         <a href="#servizi">Servizi</a>
         <a href="#settori">Settori</a>
         <a href="#perche-noi">Perché noi</a>
