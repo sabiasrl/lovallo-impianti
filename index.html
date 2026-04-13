@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lovallo Impianti Srl</title>
+    <meta
+      name="description"
+      content="Lovallo Impianti Srl - impianti idraulico-sanitari, riscaldamento e gas ad Avigliano (PZ)."
+    />
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <link rel="apple-touch-icon" href="assets/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenuto-principale">Salta al contenuto</a>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Vai alla home Lovallo Impianti">
+        <img
+          src="assets/logo.jpeg"
+          alt="Logo Lovallo Impianti"
+          width="1356"
+          height="248"
+          decoding="async"
+          fetchpriority="high"
+        />
+      </a>
+      <button
+        id="menu-toggle"
+        class="menu-toggle"
+        aria-label="Apri menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="desktop-nav" aria-label="Navigazione principale">
+        <a href="#home">Home</a>
+        <a href="#servizi">Servizi</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#chi-siamo">Chi siamo</a>
+      </nav>
+    </header>
+
+    <div id="mobile-menu" class="mobile-menu" hidden>
+      <button id="menu-close" class="menu-close" aria-label="Chiudi menu">×</button>
+      <div class="mobile-menu-brand" aria-hidden="true">
+        <div class="mobile-menu-brand-panel">
+          <div class="mobile-menu-brand-circle">
+            <img src="assets/favicon.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <nav aria-label="Menu mobile">
+        <a href="#home">Home</a>
+        <a href="#servizi">Servizi</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#chi-siamo">Chi siamo</a>
+      </nav>
+    </div>
+
+    <main id="contenuto-principale">
+      <section id="home" class="hero">
+        <div class="hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Impresa attiva dal 2019</p>
+            <h1>LOVALLO IMPIANTI S.r.l.</h1>
+            <p class="hero-subtitle">
+              Impianti di Climatizzazione - Idrici - Trattamento aria - Gas
+            </p>
+            <p>
+              Installazione e manutenzione di impianti civili e professionali, con
+              interventi su sistemi idraulico-sanitari, riscaldamento e gas.
+            </p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="#chi-siamo">Richiedi informazioni</a>
+              <a class="btn btn-ghost" href="#servizi">Scopri i servizi</a>
+            </div>
+          </div>
+          <figure class="hero-media">
+            <img
+              src="assets/home-hvac.jpg"
+              alt="Impianti di climatizzazione e comfort domestico"
+              width="1200"
+              height="800"
+              decoding="async"
+              fetchpriority="high"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section id="servizi" class="section section-alt services-panel">
+        <h2>Servizi</h2>
+        <div class="services">
+          <article class="service-item">
+            <div class="service-item-media">
+              <img
+                src="assets/air-conditioner.jpg"
+                alt=""
+                width="800"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="service-item-body">
+              <h3>Impianti di Climatizzazione</h3>
+              <p>Installazione, manutenzione e riqualificazione di impianti termici e di climatizzazione per ambienti civili e lavorativi.</p>
+            </div>
+          </article>
+          <article class="service-item">
+            <div class="service-item-media">
+              <img
+                src="assets/pipes-colorful-flat.jpg"
+                alt=""
+                width="800"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="service-item-body">
+              <h3>Idrici</h3>
+              <p>Impianti idraulico-sanitari: progettazione, realizzazione e assistenza per abitazioni e attività.</p>
+            </div>
+          </article>
+          <article class="service-item">
+            <div class="service-item-media">
+              <img
+                src="assets/ventilation.jpg"
+                alt=""
+                width="800"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="service-item-body">
+              <h3>Trattamento aria</h3>
+              <p>Ventilazione meccanica controllata, estrazione e rinnovo dell&apos;aria per comfort e qualità negli ambienti.</p>
+            </div>
+          </article>
+          <article class="service-item">
+            <div class="service-item-media">
+              <img
+                src="assets/home-gas-kitchen.jpg"
+                alt=""
+                width="800"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="service-item-body">
+              <h3>Impianti gas domestici</h3>
+              <p>
+                Installazione e revisione di reti e terminali gas in abitazioni: cucine, generatori di calore e
+                adeguamenti alle norme per uso domestico in sicurezza.
+              </p>
+            </div>
+          </article>
+          <article class="service-item">
+            <div class="service-item-media">
+              <img
+                src="assets/solar-panel-blue-sky.jpg"
+                alt=""
+                width="800"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="service-item-body">
+              <h3>Pannelli solari</h3>
+              <p>Impianti fotovoltaici su coperture civili e industriali, dalla progettazione all&apos;allacciamento in rete.</p>
+            </div>
+          </article>
+          <article class="service-item">
+            <div class="service-item-media">
+              <img
+                src="assets/condizionationi-tetto.jpg"
+                alt=""
+                width="800"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="service-item-body">
+              <h3>Grandi impianti</h3>
+              <p>
+                Commesse di ampie dimensioni che integrano impianti di climatizzazione, idrici, trattamento aria, gas
+                domestici e pannelli solari: coordinamento in cantiere, sicurezza e rispetto delle tempistiche.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section portfolio-section">
+        <h2 id="portfolio-title">Portfolio</h2>
+        <p class="company-intro">
+          Una selezione di lavori, cantieri e impianti realizzati — galleria e schede progetto in aggiornamento.
+        </p>
+        <div class="portfolio-placeholder" aria-label="Contenuti portfolio in arrivo">
+          <p>
+            In questa area verranno pubblicate <strong>foto</strong>, <strong>referenze</strong> e
+            <strong>case study</strong> per tipologia di intervento. Contenuti: <em>da integrare</em>.
+          </p>
+        </div>
+      </section>
+
+      <section id="chi-siamo" class="section section-alt company-section" aria-labelledby="chi-siamo-title">
+        <h2 id="chi-siamo-title">Chi siamo</h2>
+        <p class="company-intro">
+          Dati societari, recapiti, specializzazioni e sede.
+        </p>
+        <div class="company-layout">
+          <div class="company-col company-col-main">
+            <h3 class="company-subheading">Dati aziendali</h3>
+            <div class="card-grid card-grid--company">
+              <article class="card">
+                <h3>Ragione sociale</h3>
+                <p>Lovallo Impianti S.r.l.</p>
+              </article>
+              <article class="card">
+                <h3>Sede legale</h3>
+                <p>Frazione Chicone 28/A, 85021 Avigliano (PZ)</p>
+              </article>
+              <article class="card">
+                <h3>Partita IVA</h3>
+                <p>IT02040040764</p>
+              </article>
+              <article class="card">
+                <h3>PEC</h3>
+                <p>lovalloimpiantisrls@pec.it</p>
+              </article>
+            </div>
+
+            <h3 class="company-subheading">Contatti</h3>
+            <ul class="contact-list">
+              <li>
+                <span class="contact-label">Email</span>
+                <a class="contact-link" href="mailto:lovalloimpianti2019@gmail.com">lovalloimpianti2019@gmail.com</a>
+              </li>
+              <li>
+                <span class="contact-label">Telefono</span>
+                <a class="contact-link" href="tel:+323476879251">+32 347 687 9251</a>
+              </li>
+              <li>
+                <span class="contact-label">WhatsApp</span>
+                <a class="contact-link" href="https://wa.me/323476879251" target="_blank" rel="noreferrer">Apri chat WhatsApp</a>
+              </li>
+            </ul>
+
+            <h3 class="company-subheading">Specializzazioni</h3>
+            <div class="card card-prose">
+              <p>
+                Installazione e manutenzione di impianti di climatizzazione, idraulici, trattamento aria, gas domestici
+                e pannelli solari; progettazione e realizzazione di <strong>grandi impianti</strong> integrati per
+                commesse civili e industriali.
+              </p>
+            </div>
+
+            <h3 class="company-subheading">Partner e fornitori</h3>
+            <div class="partner-placeholder" aria-label="Area partner e fornitori da definire">
+              <p>
+                Spazio dedicato a <strong>partner</strong> e <strong>fornitori</strong> di fiducia — loghi, attestazioni
+                e referenze: <em>contenuti da definire</em>.
+              </p>
+            </div>
+          </div>
+
+          <div class="company-col company-col-map">
+            <h3 class="company-subheading">Dove siamo</h3>
+            <p class="map-address">Frazione Chicone 28/A, 85021 Avigliano (PZ)</p>
+            <div class="map-wrapper map-wrapper--company">
+              <iframe
+                title="Mappa sede Lovallo Impianti S.r.l."
+                src="https://www.google.com/maps?q=Frazione+Chicone+28%2FA%2C+85021+Avigliano+PZ&amp;z=17&amp;hl=it&amp;output=embed"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
