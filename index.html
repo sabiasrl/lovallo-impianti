@@ -749,7 +749,19 @@
               </article>
             </div>
 
-            <h3 class="company-subheading" id="contatti">Contatti</h3>
+            <h3 class="company-subheading company-subheading--with-vcard" id="contatti">
+              <a
+                class="company-subheading__vcard"
+                href="assets/contact.vcf"
+                download="contact.vcf"
+                type="text/vcard"
+                aria-label="Aggiungi in rubrica"
+                title="Aggiungi in rubrica"
+              >
+                <img src="assets/contacts.png" alt="" width="36" height="36" loading="lazy" decoding="async" />
+              </a>
+              <span>Contatti</span>
+            </h3>
             <ul class="contact-list">
               <li>
                 <span class="contact-label">Sede operativa</span>
@@ -762,7 +774,7 @@
               <li>
                 <span class="contact-label">Telefono</span>
                 <div class="contact-phone-row">
-                  <a class="contact-link" href="tel:+323476879251">+32 347 687 9251</a>
+                  <a class="contact-link" href="tel:+393476879251">347 687 9251</a>
                   <a
                     class="contact-wa-btn"
                     href="https://wa.me/323476879251"
@@ -819,5 +831,6 @@
     </footer>
 
     <script src="script.js"></script>
-  </body>
+
+</body>
 </html>
