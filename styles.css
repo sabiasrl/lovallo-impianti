@@ -1586,7 +1586,31 @@ h2 {
   border-top: 1px solid var(--border);
 }
 
+.site-footer-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+}
+
 .site-footer-bar .site-footer-copy {
   text-align: center;
   padding-bottom: 1.25rem;
+  margin: 0;
+}
+
+.site-footer-bar .site-footer-copy--powered {
+  padding-bottom: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .site-footer-meta {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.35rem;
+  }
+
+  .site-footer-bar .site-footer-copy {
+    padding-bottom: 1.25rem;
+  }
 }
