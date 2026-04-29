@@ -93,6 +93,7 @@
       <nav class="desktop-nav" aria-label="Navigazione principale">
         <a href="#home">Home</a>
         <a href="#servizi">Servizi</a>
+        <a href="#assistenza">Assistenza</a>
         <a href="#settori">Settori</a>
         <a href="#perche-noi">Perché noi</a>
         <a href="#guide">Guide</a>
@@ -120,6 +121,7 @@
       </a>
       <nav aria-label="Menu mobile">
         <a href="#servizi">Servizi</a>
+        <a href="#assistenza">Assistenza</a>
         <a href="#settori">Settori</a>
         <a href="#perche-noi">Perché noi</a>
         <a href="#guide">Guide</a>
@@ -130,55 +132,90 @@
     </div>
 
     <main id="contenuto-principale">
+      <section class="stats-strip stats-strip--brands" aria-label="Brand partner">
+        <div class="stats-strip-brand-cloud brand-cloud-section">
+          <div class="brand-cloud brand-cloud--logos" aria-label="Nuvola loghi brand partner">
+            <img class="brand-logo-chip brand-logo-chip--on-dark" src="assets/logos/brands-clivet.svg" alt="Clivet" width="256" height="256" loading="lazy" decoding="async" />
+            <img class="brand-logo-chip brand-logo-chip--on-dark" src="assets/logos/brands-ctm.svg" alt="CTM" width="256" height="256" loading="lazy" decoding="async" />
+            <img class="brand-logo-chip" src="assets/logos/brands-giacomini.svg" alt="Giacomini" width="256" height="256" loading="lazy" decoding="async" />
+            <img class="brand-logo-chip" src="assets/logos/brands-idrosistemi.png" alt="Idrosistemi" width="256" height="256" loading="lazy" decoding="async" />
+            <img class="brand-logo-chip" src="assets/logos/brands-ravelli.png" alt="Ravelli" width="256" height="256" loading="lazy" decoding="async" />
+            <img class="brand-logo-chip" src="assets/logos/brands-riello.png" alt="Riello" width="256" height="256" loading="lazy" decoding="async" />
+            <img class="brand-logo-chip" src="assets/logos/brands-rossato.png" alt="Rossato" width="256" height="256" loading="lazy" decoding="async" />
+            <img class="brand-logo-chip" src="assets/logos/brands-thermorossi.png" alt="Thermorossi" width="256" height="256" loading="lazy" decoding="async" />
+            <img class="brand-logo-chip" src="assets/logos/brands-viessmann.svg" alt="Viessmann" width="256" height="256" loading="lazy" decoding="async" />
+            <img class="brand-logo-chip" src="assets/logos/brands-clementi.svg" alt="Clementi" width="256" height="256" loading="lazy" decoding="async" />
+          </div>
+        </div>
+      </section>
+
       <section id="home" class="hero hero--hvac">
         <div class="hero-inner">
           <div class="hero-copy">
-            <p class="hero-eyebrow">Impresa artigiana · Basilicata</p>
+            <p class="hero-eyebrow">Azienda termoidraulica</p>
+            <!-- <p class="hero-eyebrow hero-eyebrow--assist">Centro Assistenza Autorizzato</p> -->
             <h1>Impianti che regolano comfort, sicurezza ed efficienza energetica</h1>
             <p class="hero-subtitle">
               Climatizzazione, idraulica, trattamento aria, gas e solare — progettazione, installazione e
               manutenzione per edifici civili e attività produttive.
             </p>
             <p class="hero-lead">
-              Lovallo Impianti S.r.l. opera dal 2004 con team strutturato e competenze certificate: dall&apos;impianto
-              termico alla distribuzione idrica, dalla ventilazione controllata agli interventi in sicurezza sul gas,
-              fino agli impianti fotovoltaici su copertura.
+              Dal 2004 realizziamo impianti termici, idraulici, ventilazione, gas e fotovoltaico.
             </p>
             <div class="hero-cta">
               <a class="btn btn-primary" href="#contatti">Richiedi una consulenza</a>
               <a class="btn btn-ghost" href="#servizi">Esplora i servizi</a>
             </div>
             <ul class="hero-bullets" aria-label="Punti di forza">
-              <li>Preposto alla gestione tecnica ai sensi del D.M. 37/2008</li>
-              <li>Iscrizione Albo Artigiani PZ-48150 (CCIAA Basilicata)</li>
+              <li>Abilitazioni tecniche certificate</li>
+              <li>Impresa artigiana registrata in CCIAA</li>
             </ul>
           </div>
-          <figure class="hero-media hero-media--stack">
-            <img
-              src="assets/home-hvac.jpg"
-              alt="Sistemi di climatizzazione e comfort in ambiente civile"
-              width="1200"
-              height="800"
-              decoding="async"
-              fetchpriority="high"
-            />
-            <img
-              src="assets/condizionationi-tetto.jpg"
-              alt="Unità esterne su copertura edificio"
-              width="1200"
-              height="800"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
+          <aside class="hero-partners-card assistance-top-card" aria-label="Centro assistenza tecnico autorizzato">
+            <h2 class="assistance-title-spaced">Centro Assistenza Tecnico Autorizzato</h2>
+            <div class="assistance-top-grid" aria-label="Marchi assistenza autorizzata">
+              <a href="https://www.immergas.com/" target="_blank" rel="noopener noreferrer" aria-label="Visita il sito Immergas">
+                <img src="assets/logos/immergas.png" alt="Logo Immergas" width="256" height="256" loading="lazy" decoding="async" />
+                <span>IMMERGAS</span>
+              </a>
+              <a href="https://www.ferroli.com/" target="_blank" rel="noopener noreferrer" aria-label="Visita il sito Ferroli">
+                <img src="assets/logos/ferroli.png" alt="Logo Ferroli" width="256" height="256" loading="lazy" decoding="async" />
+                <span>FERROLI</span>
+              </a>
+              <a
+                href="https://www.lamborghinicalor.it/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Visita il sito Lamborghini Caloreclima"
+              >
+                <img
+                  src="assets/logos/lamborghini-caloreclima.png"
+                  alt="Logo Lamborghini Caloreclima"
+                  width="256"
+                  height="256"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span>LAMBORGHINI CALORECLIMA</span>
+              </a>
+              <a href="https://www.cordivari.it/" target="_blank" rel="noopener noreferrer" aria-label="Visita il sito Cordivari">
+                <img src="assets/logos/cordivari.png" alt="Logo Cordivari" width="256" height="256" loading="lazy" decoding="async" />
+                <span>CORDIVARI</span>
+              </a>
+            </div>
+            <p class="section-intro">
+              Lovallo Impianti offre supporto tecnico su marchi leader del settore termoidraulico per installazione,
+              manutenzione e gestione guasti.
+            </p>
+          </aside>
         </div>
       </section>
 
-      <section class="stats-strip" aria-label="Esperienza e team">
+      <section class="stats-strip stats-strip--numbers" aria-label="Esperienza e team">
         <div class="stats-strip-inner stats-strip-inner--2">
           <article class="stat-card">
-            <span class="stat-value">attivit'a termoiidraulica dal 2004</span>
-            <span class="stat-label">Esperienza aziendale</span>
+            <span class="stat-value">2004</span>
+            <span class="stat-label">Attività termoidraulica dal</span>
           </article>
           <article class="stat-card">
             <span class="stat-value">11</span>
@@ -197,6 +234,30 @@
           </p>
         </div>
         <div class="services services--deep">
+          <article class="service-item service-item--featured">
+            <div class="service-item-media">
+              <img
+                src="assets/foactory-pipes-hero.jpg"
+                alt="Realizzazione impianti industriali termoidraulici chiavi in mano"
+                width="800"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="service-item-body">
+              <h3>Realizzazione impianti industriali chiavi in mano</h3>
+              <p>
+                Progettiamo, installiamo e mettiamo in esercizio impianti termoidraulici per laboratori, capannoni e
+                attività produttive, con gestione completa del cantiere e coordinamento delle fasi operative.
+              </p>
+              <ul class="service-list">
+                <li>Analisi tecnica preliminare con rilievo in campo</li>
+                <li>Installazione, adeguamento e revamping impianti esistenti</li>
+                <li>Assistenza programmata e gestione interventi su guasto</li>
+              </ul>
+            </div>
+          </article>
           <article class="service-item">
             <div class="service-item-media">
               <img
@@ -299,6 +360,54 @@
           <article class="service-item">
             <div class="service-item-media">
               <img
+                src="assets/pavimento-radiante-tubi.jpeg"
+                alt="Impianto di riscaldamento a pavimento in fase di installazione"
+                width="800"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="service-item-body">
+              <h3>Riscaldamento a pavimento</h3>
+              <p>
+                Progettiamo e installiamo sistemi radianti a pavimento per nuove costruzioni e ristrutturazioni, con
+                distribuzione uniforme del calore e temperature di mandata più basse rispetto ai sistemi tradizionali.
+              </p>
+              <ul class="service-list">
+                <li>Dimensionamento circuiti e bilanciamento idraulico</li>
+                <li>Integrazione con pompe di calore e caldaie a condensazione</li>
+                <li>Collaudo, messa in servizio e piano manutentivo</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-item">
+            <div class="service-item-media">
+              <img
+                src="assets/pavimento-radiante-guida.jpeg"
+                alt="Sistema radiante per applicazione industriale"
+                width="800"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="service-item-body">
+              <h3>Pannelli radianti</h3>
+              <p>
+                Realizziamo impianti con pannelli radianti a parete e soffitto per ambienti civili e industriali,
+                ottimizzando comfort termico, tempi di risposta e consumi stagionali.
+              </p>
+              <ul class="service-list">
+                <li>Soluzioni per uffici, laboratori e aree produttive</li>
+                <li>Regolazione a zone e controllo puntuale delle temperature</li>
+                <li>Assistenza su avviamento e ottimizzazione impianto</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-item">
+            <div class="service-item-media">
+              <img
                 src="assets/home-gas-kitchen.jpg"
                 alt=""
                 width="800"
@@ -342,6 +451,30 @@
                 <li>Riqualificazioni con detrazioni e bandi quando applicabili</li>
                 <li>Centraline e sonde: taratura e messa a punto</li>
                 <li>Libretti impianto e registrazione interventi</li>
+              </ul>
+            </div>
+          </article>
+          <article class="service-item service-item--featured">
+            <div class="service-item-media">
+              <img
+                src="assets/bathroom.jpg"
+                alt="Luxury bathroom con finiture moderne"
+                width="800"
+                height="500"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="service-item-body">
+              <h3>Luxury Bathroom chiavi in mano</h3>
+              <p>
+                Realizziamo bagni di alta gamma con approccio completo: progettazione, impiantistica idraulica,
+                installazione sanitari e finiture di pregio per un risultato elegante, funzionale e durevole.
+              </p>
+              <ul class="service-list">
+                <li>Progetto estetico e tecnico coordinato</li>
+                <li>Materiali premium e posa accurata</li>
+                <li>Consegna completa con collaudo impianti</li>
               </ul>
             </div>
           </article>
@@ -649,6 +782,70 @@
         </div>
       </section>
 
+      <section id="assistenza" class="section section-alt assistance-section">
+        <div class="section-head">
+          <h2 class="assistance-title-spaced">Centro Assistenza Tecnico Autorizzato</h2>
+          <p class="section-intro">
+            Lovallo Impianti offre supporto tecnico su marchi leader del settore termoidraulico per installazione,
+            manutenzione e gestione guasti.
+          </p>
+        </div>
+        <div class="assistance-grid">
+          <article class="assistance-card">
+            <a href="https://www.immergas.com/" target="_blank" rel="noopener noreferrer" aria-label="Visita il sito Immergas">
+              <img src="assets/logos/immergas.png" alt="Logo Immergas" width="256" height="256" loading="lazy" decoding="async" />
+            </a>
+            <h3>IMMERGAS</h3>
+            <p>
+              Assistenza tecnica su caldaie e sistemi ibridi, con interventi su installazione, manutenzione e controllo
+              dell&apos;efficienza stagionale.
+            </p>
+          </article>
+          <article class="assistance-card">
+            <a href="https://www.ferroli.com/" target="_blank" rel="noopener noreferrer" aria-label="Visita il sito Ferroli">
+              <img src="assets/logos/ferroli.png" alt="Logo Ferroli" width="256" height="256" loading="lazy" decoding="async" />
+            </a>
+            <h3>FERROLI</h3>
+            <p>
+              Supporto tecnico per caldaie murali e sistemi di climatizzazione, inclusi controlli periodici e gestione
+              delle anomalie.
+            </p>
+          </article>
+          <article class="assistance-card">
+            <a
+              href="https://www.lamborghinicalor.it/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visita il sito Lamborghini Caloreclima"
+            >
+              <img
+                src="assets/logos/lamborghini-caloreclima.png"
+                alt="Logo Lamborghini Caloreclima"
+                width="256"
+                height="256"
+                loading="lazy"
+                decoding="async"
+              />
+            </a>
+            <h3>LAMBORGHINI CALORECLIMA</h3>
+            <p>
+              Assistenza su generatori termici e soluzioni per il comfort ambientale in ambito civile e industriale
+              (marchio termoidraulico, non automotive).
+            </p>
+          </article>
+          <article class="assistance-card">
+            <a href="https://www.cordivari.it/" target="_blank" rel="noopener noreferrer" aria-label="Visita il sito Cordivari">
+              <img src="assets/logos/cordivari.png" alt="Logo Cordivari" width="256" height="256" loading="lazy" decoding="async" />
+            </a>
+            <h3>CORDIVARI</h3>
+            <p>
+              Supporto su sistemi di accumulo, bollitori e componenti per centrali termiche e impianti ad alta
+              efficienza.
+            </p>
+          </article>
+        </div>
+      </section>
+
       <section class="section section-alt" aria-labelledby="faq-title">
         <h2 id="faq-title">Domande frequenti</h2>
         <p class="section-intro section-intro--narrow">
@@ -674,9 +871,12 @@
             </button>
             <div class="faq-a" id="faq-a-2" role="region" aria-labelledby="faq-q-2" hidden>
               <p>
-                Supportiamo il cliente con documentazione tecnica utile alle pratiche quando gli interventi rientrano in
-                normative vigenti al momento dell&apos;ordine. La responsabilità sulla compilazione delle istanze resta
-                in capo al committente e ai suoi consulenti fiscali.
+                Sì, forniamo assistenza tecnica e documentale per pratiche legate a incentivi e agevolazioni, inclusi
+                fondi regionali Basilicata, richieste GSE e Conto Termico, quando applicabili al tipo di intervento.
+                Prepariamo la documentazione impiantistica necessaria (schede tecniche, dichiarazioni e riferimenti di
+                intervento) e supportiamo il cliente nel coordinamento con i consulenti incaricati. La presentazione
+                formale della domanda e gli adempimenti fiscali/amministrativi restano in capo al committente o ai
+                professionisti delegati.
               </p>
             </div>
           </div>
@@ -716,6 +916,59 @@
               </p>
             </div>
           </div>
+          <div class="faq-item">
+            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a-6" id="faq-q-6">
+              Gestite la pratica per il Conto Termico o il GSE?
+            </button>
+            <div class="faq-a" id="faq-a-6" role="region" aria-labelledby="faq-q-6" hidden>
+              <p>
+                Sì, possiamo supportarti nella gestione della pratica e nella raccolta della documentazione necessaria.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a-7" id="faq-q-7">
+              Chi può richiedere il Conto Termico?
+            </button>
+            <div class="faq-a" id="faq-a-7" role="region" aria-labelledby="faq-q-7" hidden>
+              <p>
+                Privati, aziende e Pubbliche Amministrazioni che effettuano interventi idonei di efficientamento
+                energetico.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a-8" id="faq-q-8">
+              Quali impianti rientrano nell&apos;incentivo?
+            </button>
+            <div class="faq-a" id="faq-a-8" role="region" aria-labelledby="faq-q-8" hidden>
+              <p>
+                Caldaie ad alta efficienza, pompe di calore, sistemi ibridi e impianti solari termici.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a-9" id="faq-q-9">
+              Quanto si può recuperare con il Conto Termico?
+            </button>
+            <div class="faq-a" id="faq-a-9" role="region" aria-labelledby="faq-q-9" hidden>
+              <p>
+                L&apos;incentivo può coprire fino al 65% della spesa, in base al tipo di intervento e ai requisiti
+                tecnici.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a-10" id="faq-q-10">
+              Ci sono posizioni aperte al momento?
+            </button>
+            <div class="faq-a" id="faq-a-10" role="region" aria-labelledby="faq-q-10" hidden>
+              <p>
+                Per conoscere le opportunità disponibili o inviare una candidatura spontanea, puoi scriverci
+                all&apos;indirizzo email <a href="mailto:lovalloimpianti2019@gmail.com">lovalloimpianti2019@gmail.com</a>.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -737,10 +990,10 @@
               </article>
               <article class="card">
                 <h3>Sede legale</h3>
-                <p>Frazione Chicone 28/A, 85021 Avigliano (PZ)</p>
+                <p>Frazione Chicone 28/A<br />85021 Avigliano (PZ)</p>
               </article>
               <article class="card">
-                <h3>P. IVA / Codice fiscale</h3>
+                <h3>P. IVA</h3>
                 <p>IT02040040764</p>
               </article>
               <article class="card">
@@ -791,6 +1044,17 @@
                     </svg>
                   </a>
                 </div>
+                <a
+                  class="contact-vcard-inline"
+                  href="assets/contact.vcf"
+                  download="contact.vcf"
+                  type="text/vcard"
+                  aria-label="Aggiungi in rubrica"
+                  title="Aggiungi in rubrica"
+                >
+                  <img src="assets/contacts.png" alt="" width="24" height="24" loading="lazy" decoding="async" />
+                  <span>Aggiungi in rubrica</span>
+                </a>
               </li>
             </ul>
           </div>
@@ -820,8 +1084,9 @@
         <div>
           <p class="site-footer-heading">Contatti</p>
           <p class="site-footer-text">
-            <a href="mailto:lovalloimpianti2019@gmail.com">lovalloimpianti2019@gmail.com</a><br />
-            PEC: <a href="mailto:lovalloimpiantisrls@pec.it">lovalloimpiantisrls@pec.it</a>
+            Email: <a href="mailto:lovalloimpianti2019@gmail.com">lovalloimpianti2019@gmail.com</a><br />
+            PEC: <a href="mailto:lovalloimpiantisrls@pec.it">lovalloimpiantisrls@pec.it</a><br />
+            <a href="privacy-policy.html">Privacy Policy</a>
           </p>
         </div>
       </div>
