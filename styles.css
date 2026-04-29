@@ -123,9 +123,11 @@ button:focus-visible {
 }
 
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 30;
+  left: 0;
+  right: 0;
+  z-index: 80;
   flex-shrink: 0;
   display: flex;
   align-items: center;
@@ -136,7 +138,7 @@ button:focus-visible {
   max-width: 100%;
   min-height: var(--header-h);
   padding: 0.65rem clamp(1rem, 4vw, 1.75rem);
-  background: rgba(255, 255, 255, 0.72);
+  background: rgba(255, 255, 255, 0.78);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--border);
   box-shadow: var(--shadow-sm);
@@ -284,7 +286,7 @@ button:focus-visible {
 .mobile-menu {
   position: fixed;
   inset: 0;
-  z-index: 50;
+  z-index: 120;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -295,9 +297,9 @@ button:focus-visible {
   overflow-x: hidden;
   overflow-y: auto;
   overscroll-behavior: contain;
-  background: rgba(15, 23, 42, 0.72);
-  backdrop-filter: blur(8px);
-  color: #f1f5f9;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(10px);
+  color: #0f172a;
   padding: 2rem;
   box-sizing: border-box;
 }
@@ -335,7 +337,7 @@ button:focus-visible {
   font-weight: 700;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #f8fafc;
+  color: #0f172a;
   line-height: 1.2;
 }
 
@@ -352,7 +354,7 @@ button:focus-visible {
   font-size: clamp(0.68rem, 2.2vw, 0.78rem);
   font-weight: 500;
   line-height: 1.4;
-  color: #94a3b8;
+  color: #475569;
   overflow-wrap: break-word;
 }
 
@@ -394,13 +396,13 @@ button:focus-visible {
   letter-spacing: -0.02em;
   padding: 0.65rem 1.5rem;
   border-radius: var(--radius-md);
-  color: #e2e8f0;
+  color: #1f2937 !important;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
 .mobile-menu nav a:hover {
-  background: rgba(255, 255, 255, 0.08);
-  color: #fff;
+  background: rgba(15, 23, 42, 0.08);
+  color: #0f172a !important;
 }
 
 .menu-close {
@@ -413,21 +415,21 @@ button:focus-visible {
   line-height: 1;
   border: none;
   border-radius: var(--radius-sm);
-  background: rgba(255, 255, 255, 0.08);
-  color: #fff;
+  background: rgba(15, 23, 42, 0.08);
+  color: #0f172a;
   cursor: pointer;
   transition: background 0.2s ease;
 }
 
 .menu-close:hover {
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(15, 23, 42, 0.14);
 }
 
 main {
   flex: 1 0 auto;
   width: 100%;
   min-width: 0;
-  padding: 0 var(--main-pad-x) 3rem;
+  padding: calc(var(--header-h) + 0.35rem) var(--main-pad-x) 3rem;
   max-width: 1200px;
   margin: 0 auto;
 }
