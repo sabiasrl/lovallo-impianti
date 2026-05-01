@@ -38,6 +38,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 767px)" />
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -120,10 +121,10 @@
       </a>
       <nav aria-label="Menu mobile">
         <a href="#servizi">Servizi</a>
+        <a href="#assistenza">Assistenza</a>
         <a href="#settori">Settori</a>
         <a href="#perche-noi">Perché noi</a>
         <a href="#portfolio">Lavori</a>
-        <a href="#assistenza">Assistenza</a>
         <a href="#chi-siamo">Chi siamo</a>
         <a href="#contatti">Contatti</a>
       </nav>
@@ -244,7 +245,7 @@
               />
             </div>
             <div class="service-item-body">
-              <h3>Realizzazione impianti industriali chiavi in mano</h3>
+              <h3>Realizzazione impianti industriali</h3>
               <p>
                 Progettiamo, installiamo e mettiamo in esercizio impianti termoidraulici per laboratori, capannoni e
                 attività produttive, con gestione completa del cantiere e coordinamento delle fasi operative.
@@ -358,7 +359,7 @@
           <article class="service-item">
             <div class="service-item-media">
               <img
-                src="assets/pavimento-radiante-tubi.jpeg"
+                src="assets/pavimento-radiante-guida.jpeg"
                 alt="Impianto di riscaldamento a pavimento in fase di installazione"
                 width="800"
                 height="500"
@@ -382,7 +383,7 @@
           <article class="service-item">
             <div class="service-item-media">
               <img
-                src="assets/pavimento-radiante-guida.jpeg"
+                src="assets/pavimento-radiante-tubi.jpeg"
                 alt="Sistema radiante per applicazione industriale"
                 width="800"
                 height="500"
@@ -464,7 +465,7 @@
               />
             </div>
             <div class="service-item-body">
-              <h3>Luxury Bathroom chiavi in mano</h3>
+              <h3>Luxury Bathroom</h3>
               <p>
                 Realizziamo bagni di alta gamma con approccio completo: progettazione, impiantistica idraulica,
                 installazione sanitari e finiture di pregio per un risultato elegante, funzionale e durevole.
@@ -861,7 +862,7 @@
 
       <section id="chi-siamo" class="section company-section" aria-labelledby="chi-siamo-title">
         <h2 id="chi-siamo-title">Chi siamo</h2>
-        <p class="section-intro">
+        <p class="section-intro section-intro--always-visible">
           Lovallo Impianti S.r.l. è una società a responsabilità limitata costituita nel marzo 2004 e iscritta al
           Registro Imprese della Basilicata. La sede legale è in frazione Chicone ad Avigliano (PZ); l&apos;attività è
           iniziata nel marzo 2004 con focus su installazione e manutenzione di impianti termoidraulici e gas negli
@@ -889,7 +890,8 @@
               </article>
             </div>
 
-            <h3 class="company-subheading company-subheading--with-vcard" id="contatti">
+            <h2 class="company-contacts-title">Contatti</h2>
+            <h3 id="contatti" class="company-subheading company-subheading--with-vcard">
               <a
                 class="company-subheading__vcard"
                 href="assets/contact.vcf"
@@ -991,6 +993,7 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="mobile.js"></script>
 
 </body>
 </html>

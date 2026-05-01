@@ -464,6 +464,10 @@ main {
 
 .hero {
   margin-top: 0.35rem;
+  min-height: calc(100vh - var(--header-h) - 0.7rem);
+  min-height: calc(100svh - var(--header-h) - 0.7rem);
+  display: flex;
+  align-items: center;
   padding: clamp(1.75rem, 5vw, 3rem) clamp(1.25rem, 4vw, 2.75rem);
   border-radius: var(--radius-xl);
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(248, 250, 252, 0.88) 50%, rgba(241, 245, 249, 0.92) 100%);
@@ -476,6 +480,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: clamp(1.25rem, 3vw, 2rem);
+  width: 100%;
 }
 
 .hero-copy {
@@ -670,6 +675,10 @@ h2 {
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
+}
+
+.company-contacts-title {
+  display: none;
 }
 
 .company-subheading--with-vcard {
@@ -1294,6 +1303,11 @@ h2 {
 }
 
 @media (min-width: 900px) {
+  .services--deep .service-item .service-item-media img {
+    height: 210px;
+    aspect-ratio: auto;
+  }
+
   .services--deep {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1475,19 +1489,6 @@ h2 {
   .stats-strip-brand-cloud .brand-cloud {
     flex-wrap: nowrap;
     overflow-x: visible;
-  }
-}
-
-@media (max-width: 767px) {
-  .stats-strip-brand-cloud .brand-cloud {
-    justify-content: flex-start;
-    gap: 0.45rem;
-  }
-
-  .stats-strip--brands .brand-logo-chip {
-    width: 68px;
-    height: 24px;
-    padding: 0;
   }
 }
 
