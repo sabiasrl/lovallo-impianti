@@ -677,6 +677,10 @@ h2 {
   color: var(--muted);
 }
 
+.company-subheading--normal {
+  font-weight: 400;
+}
+
 .company-contacts-title {
   display: none;
 }
@@ -752,6 +756,11 @@ h2 {
   line-height: 1.45;
 }
 
+.card-grid--company .card p {
+  font-weight: 500;
+  color: var(--text-secondary);
+}
+
 .card-prose p {
   margin: 0;
   font-weight: 400;
@@ -765,7 +774,7 @@ h2 {
   text-decoration: underline;
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .contact-link:hover {
@@ -790,6 +799,14 @@ h2 {
   gap: 0.2rem;
 }
 
+.contact-list p {
+  margin: 0.45rem 0 0;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text);
+  line-height: 1.45;
+}
+
 .contact-list li:last-child {
   border-bottom: none;
 }
@@ -804,7 +821,7 @@ h2 {
 
 .contact-phone-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   align-items: center;
   gap: 0.55rem;
 }
@@ -834,7 +851,8 @@ h2 {
 }
 
 .contact-vcard-inline {
-  margin-top: 0.3rem;
+  margin-top: 0;
+  margin-left: 0.55rem;
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
@@ -843,6 +861,8 @@ h2 {
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
   font-weight: 500;
+  font-size: 0.92rem;
+  line-height: 1;
 }
 
 .contact-vcard-inline:hover {
@@ -850,8 +870,8 @@ h2 {
 }
 
 .contact-vcard-inline img {
-  width: 1.2rem;
-  height: 1.2rem;
+  width: 1.8rem;
+  height: 1.8rem;
   object-fit: cover;
   border-radius: 50%;
 }
