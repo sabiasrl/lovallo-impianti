@@ -1,1 +1,0 @@
-# lovallo-impianti
